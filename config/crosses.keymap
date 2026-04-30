@@ -146,19 +146,19 @@
 
         Num {
             bindings = <
-&kp TILDE  &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
-&none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &ht LS(LEFT_BRACKET) LEFT_BRACKET
-&none      &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &ht DOT NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
-                           &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
+&kp TILDE              &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
+&ht F5 F2              &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &ht LS(LEFT_BRACKET) LEFT_BRACKET
+&ht LS(DELETE) DELETE  &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &ht DOT NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
+                                       &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
             >;
         };
 
         ETC {
             bindings = <
-&ht LS(DELETE) DELETE  &none               &kp LS(UP_ARROW)    &none                &none        &none          &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &none
-&ht F5 F2              &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none        &none          &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &none
-&kp PLUS               &kp MINUS           &kp ASTERISK        &kp SLASH            &none        &none          &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none
-                                           &none               &none                &kp SPACE    &kp BACKSPACE  &kp LS(NUMBER_0)  &none
+&none     &none               &kp LS(UP_ARROW)    &none                &none        &none          &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &none
+&none     &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none        &none          &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &none
+&kp PLUS  &kp MINUS           &kp ASTERISK        &kp SLASH            &none        &none          &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none
+                              &none               &none                &kp SPACE    &kp BACKSPACE  &kp LS(NUMBER_0)  &none
             >;
         };
 
