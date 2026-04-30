@@ -146,10 +146,10 @@
 
         Num {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp F1         &kp F2         &kp F3   &kp F4
-&kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8    &kp SEMICOLON       &kp SQT            &kp F5         &kp F6         &kp F7   &kp F8
-&kp NUMBER_9  &kp NUMBER_0  &kp MINUS     &kp EQUAL       &kp BACKSLASH       &none              &kp F9         &kp F10        &kp F11  &kp F12
-                            &kp LCTRL     &kp LEFT_SHIFT  &trans              &kp ENTER          &kp BACKSPACE  &kp RIGHT_WIN
+&none      &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
+&kp TILDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &ht LS(LEFT_BRACKET) LEFT_BRACKET
+&none      &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
+                           &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
             >;
         };
 
