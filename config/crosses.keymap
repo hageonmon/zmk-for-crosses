@@ -137,17 +137,17 @@
 
         Base {
             bindings = <
-&kp Q    &kp W  &kp E      &kp R           &kp T          &kp Y        &kp U          &kp I          &kp O    &kp P
-&kp A    &kp S  &kp D      &kp F           &kp G          &kp H        &kp J          &kp K          &kp L    &kp ENTER
-&lt 3 Z  &kp X  &kp C      &kp V           &kp B          &kp N        &kp M          &kp COMMA      &kp DOT  &lt 3 SLASH
-                &kp LCTRL  &kp LEFT_SHIFT  &lt 1 SPACE    &lt 2 ENTER  &kp BACKSPACE  &kp RIGHT_ALT
+&ht LS(Q) Q     &ht LS(W) W       &ht LS(E) E       &ht LS(R) R  &ht LS(T) T       &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
+&hr LEFT_ALT A  &hr LEFT_SHIFT S  &hr LEFT_SHIFT D  &kp F        &hr LEFT_GUI G    &kp H          &kp J              &kp K              &kp L        &kp SEMICOLON
+&kp Z           &kp X             &kp C             &kp V        &kp B             &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
+                                  &mo 2             &mo 1        &kp SPACE         &kp BACKSPACE  &kp RIGHT_SHIFT    &none
             >;
         };
 
         Num {
             bindings = <
-&none      &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
-&kp TILDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &ht LS(LEFT_BRACKET) LEFT_BRACKET
+&kp TILDE  &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
+&none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &ht LS(LEFT_BRACKET) LEFT_BRACKET
 &none      &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
                            &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
             >;
