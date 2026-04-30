@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <200>;
@@ -156,19 +155,19 @@
 
         ETC {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)     &kp LS(N4)      &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &none           &none           &none            &none
-&kp LS(N5)  &kp LS(N6)  &kp LS(N7)     &kp LS(N8)      &kp LS(SEMICOLON)       &kp LS(SQT)            &none           &kp UP_ARROW    &none            &none
-&kp LS(N9)  &kp LS(N0)  &kp LS(MINUS)  &kp LS(EQUAL)   &kp LS(BACKSLASH)       &none                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-                        &kp LCTRL      &kp LEFT_SHIFT  &kp SPACE               &trans                 &kp BACKSPACE   &kp RIGHT_ALT
+&ht LS(DELETE) DELETE  &none               &kp LS(UP_ARROW)    &none                &none        &none          &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &none
+&ht F5 F2              &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none        &none          &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &none
+&kp PLUS               &kp MINUS           &kp ASTERISK        &kp SLASH            &none        &none          &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none
+                                           &none               &none                &kp SPACE    &kp BACKSPACE  &kp LS(NUMBER_0)  &none
             >;
         };
 
         Funtion {
             bindings = <
-&trans  &bt BT_SEL 1  &bt BT_SEL 3  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0
-&none   &none         &none         &none      &none         &none       &none      &none         &none         &none
-&trans  &none         &none         &none      &none         &none       &none      &none         &none         &trans
-                      &mkp MCLK     &mkp LCLK  &mkp RCLK     &mkp RCLK   &mkp LCLK  &mkp MCLK
+&none  &none  &none  &none  &none    &none    &kp F7   &kp F8  &kp F9  &none
+&none  &none  &none  &none  &none    &kp F12  &kp F4   &kp F5  &kp F6  &none
+&none  &none  &none  &none  &none    &kp F11  &kp F1   &kp F2  &kp F3  &none
+              &none  &none  &none    &none    &kp F10  &none
             >;
         };
 
