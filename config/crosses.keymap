@@ -18,6 +18,7 @@
             timeout-ms = <40>;
             require-prior-idle-ms = <120>;
             layers = <0>;
+            slow-release;
         };
 
         ESC_combo {
@@ -33,6 +34,7 @@
             key-positions = <10 11>;
             timeout-ms = <40>;
             require-prior-idle-ms = <120>;
+            slow-release;
         };
 
         ENTER_combo {
@@ -40,6 +42,7 @@
             key-positions = <16 17>;
             timeout-ms = <50>;
             require-prior-idle-ms = <120>;
+            slow-release;
         };
 
         COPY_combo {
@@ -47,6 +50,7 @@
             key-positions = <12 13>;
             timeout-ms = <50>;
             require-prior-idle-ms = <120>;
+            slow-release;
         };
 
         PASTE_combo {
@@ -54,6 +58,7 @@
             key-positions = <12 23>;
             timeout-ms = <50>;
             require-prior-idle-ms = <120>;
+            slow-release;
         };
 
         momentary_layer_bluetooth {
@@ -65,6 +70,9 @@
         Capture_combo {
             bindings = <&kp LS(LG(S))>;
             key-positions = <3 2 1>;
+            slow-release;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <120>;
         };
     };
 
