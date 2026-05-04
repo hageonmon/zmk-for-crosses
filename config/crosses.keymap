@@ -61,6 +61,11 @@
             key-positions = <20 21 22 23>;
             layers = <0>;
         };
+
+        Capture_combo {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <3 2 1>;
+        };
     };
 
     macros {
