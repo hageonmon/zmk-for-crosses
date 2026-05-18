@@ -74,6 +74,11 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <120>;
         };
+
+        Momentary_layer_3 {
+            bindings = <&mo 3>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
