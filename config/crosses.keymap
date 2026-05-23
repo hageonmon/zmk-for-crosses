@@ -158,10 +158,10 @@
 
         Base {
             bindings = <
-&ht LS(Q) Q     &ht LS(W) W       &ht LS(E) E       &ht LS(R) R  &ht LS(T) T       &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
-&hr LEFT_ALT A  &hr LEFT_SHIFT S  &hr LEFT_SHIFT D  &kp F        &hr LEFT_GUI G    &kp H          &kp J              &kp K              &kp L        &kp SEMICOLON
-&kp Z           &kp X             &kp C             &kp V        &kp B             &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
-                                  &mo 2             &mo 1        &kp SPACE         &kp BACKSPACE  &kp RIGHT_SHIFT    &none
+&ht LS(Q) Q     &ht LS(W) W       &ht LS(E) E         &ht LS(R) R  &ht LS(T) T       &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
+&hr LEFT_ALT A  &hr LEFT_SHIFT S  &hr LEFT_CONTROL D  &kp F        &hr LEFT_GUI G    &kp H          &kp J              &kp K              &kp L        &kp SEMICOLON
+&kp Z           &kp X             &kp C               &kp V        &kp B             &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
+                                  &mo 2               &mo 1        &kp SPACE         &kp BACKSPACE  &kp RIGHT_SHIFT    &none
             >;
         };
 
