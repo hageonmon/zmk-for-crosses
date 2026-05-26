@@ -83,13 +83,13 @@
 
         to_layer_3 {
             bindings = <&to 3>;
-            key-positions = <13 31>;
+            key-positions = <13 12>;
             layers = <0>;
         };
 
         to_layer_0 {
             bindings = <&to 0>;
-            key-positions = <31 13>;
+            key-positions = <13 12>;
             layers = <3>;
         };
     };
