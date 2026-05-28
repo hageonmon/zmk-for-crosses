@@ -161,8 +161,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <100>;
-            flavor = "balanced";
+            quick-tap-ms = <50>;
+            flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
         };
 
