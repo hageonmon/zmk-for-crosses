@@ -217,7 +217,7 @@
             bindings = <
 &kp TILDE       &none           &kp UP_ARROW    &none            &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
-&none           &none           &none           &none            &td1         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &td3          &kp RIGHT_BRACKET
+&none           &none           &none           &none            &td1         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &td4          &kp RIGHT_BRACKET
                                 &none           &none            &kp SPACE    &kp BACKSPACE  &kp NUMBER_0  &none
             >;
         };
