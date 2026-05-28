@@ -105,20 +105,6 @@
             bindings = <&kp O &kp F &kp F &kp I &kp C &kp E &kp D &kp E &kp P &kp O &kp T &kp DOT &kp C &kp O &kp DOT &kp K &kp R>;
             label = "DOMAIN";
         };
-
-        doubleclick: doubleclick {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp LCLK &mkp LCLK>;
-            label = "DOUBLECLICK";
-        };
-
-        ctrl_click: ctrl_click {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &mkp LCLK>;
-            label = "CTRL_CLICK";
-        };
     };
 
     behaviors {
