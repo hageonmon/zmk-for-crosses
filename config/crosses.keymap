@@ -75,21 +75,6 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <120>;
         };
-
-        to_layer_3 {
-            bindings = <&to 3>;
-            key-positions = <22 23>;
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <0>;
-        };
-
-        to_layer_0 {
-            bindings = <&to 0>;
-            key-positions = <23 22>;
-            layers = <3>;
-            timeout-ms = <50>;
-        };
     };
 
     macros {
@@ -196,7 +181,7 @@
 &ht LS(Q) Q     &ht LS(W) W       &ht LS(E) E         &ht LS(R) R  &ht LS(T) T       &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
 &hr LEFT_ALT A  &hr LEFT_SHIFT S  &hr LEFT_CONTROL D  &kp F        &hr LEFT_GUI G    &kp H          &kp J              &kp K              &kp L        &kp SEMICOLON
 &kp Z           &kp X             &kp C               &kp V        &kp B             &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
-                                  &mkp LCLK           &td3         &kp SPACE         &kp BACKSPACE  &kp RIGHT_SHIFT    &none
+                                  &mkp LCLK           &td3         &kp SPACE         &kp BACKSPACE  &kp RIGHT_SHIFT    &to 3
             >;
         };
 
