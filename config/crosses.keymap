@@ -63,7 +63,7 @@
         };
 
         momentary_layer_bluetooth {
-            bindings = <&mo 5>;
+            bindings = <&mo 4>;
             key-positions = <20 21 22 23>;
             layers = <0>;
         };
@@ -163,7 +163,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE3";
             #binding-cells = <0>;
-            bindings = <&mo 4>, <&mo 1>, <&mo 2>;
+            bindings = <&mo 3>, <&mo 1>;
 
             tapping-term-ms = <100>;
         };
@@ -177,16 +177,7 @@
 &ht LS(Q) Q     &ht LS(W) W       &ht LS(E) E         &ht LS(R) R  &ht LS(T) T    &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
 &hr LEFT_ALT A  &hr LEFT_SHIFT S  &hr LEFT_CONTROL D  &kp F        &kp G          &kp H          &kp J              &kp K              &kp L        &hr RIGHT_GUI SEMICOLON
 &kp Z           &kp X             &kp C               &kp V        &kp B          &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
-                                  &td3                &mkp LCLK    &kp SPACE      &kp BACKSPACE  &kp RIGHT_SHIFT    &to 3
-            >;
-        };
-
-        ETC {
-            bindings = <
-&none     &none               &kp LS(UP_ARROW)    &none                &none        &none          &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &none
-&none     &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none        &none          &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &none
-&kp PLUS  &kp MINUS           &kp ASTERISK        &kp SLASH            &none        &none          &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none
-                              &none               &none                &kp SPACE    &kp BACKSPACE  &kp LS(NUMBER_0)  &none
+                                  &td3                &mkp LCLK    &kp SPACE      &kp BACKSPACE  &kp RIGHT_SHIFT    &to 2
             >;
         };
 
@@ -203,17 +194,17 @@
             bindings = <
 &none  &none  &mkp MB4   &mkp MB5   &none        &mkp MB4       &mkp MB5   &none  &none  &none
 &none  &none  &mkp RCLK  &mkp LCLK  &none        &mkp LCLK      &mkp RCLK  &none  &none  &none
-&none  &none  &none      &none      &none        &mo 4          &mo 4      &none  &none  &none
-              &none      &mo 4      &kp SPACE    &kp BACKSPACE  &none      &to 0
+&none  &none  &none      &none      &none        &mo 3          &mo 3      &none  &none  &none
+              &none      &mo 3      &kp SPACE    &kp BACKSPACE  &none      &to 0
             >;
         };
 
         Num {
             bindings = <
-&kp TILDE              &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
-&ht F5 F2              &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &ht LS(LEFT_BRACKET) LEFT_BRACKET
-&ht LS(DELETE) DELETE  &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &ht DOT NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
-                                       &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
+&kp TILDE       &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &ht LS(LEFT_BRACKET) LEFT_BRACKET
+&none           &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &ht DOT NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
+                                &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
             >;
         };
 
