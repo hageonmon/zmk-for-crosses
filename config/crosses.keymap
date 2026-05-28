@@ -85,6 +85,11 @@
             bindings = <&mkp MB4>;
             key-positions = <22 21>;
         };
+
+        DEL_combo {
+            bindings = <&kp DELETE>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
@@ -174,10 +179,10 @@
 
         Base {
             bindings = <
-&ht LS(Q) Q     &ht LS(W) W       &ht LS(E) E         &ht LS(R) R  &ht LS(T) T    &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
-&hr LEFT_ALT A  &hr LEFT_SHIFT S  &hr LEFT_CONTROL D  &kp F        &kp G          &kp H          &kp J              &kp K              &kp L        &hr RIGHT_GUI SEMICOLON
-&kp Z           &kp X             &kp C               &kp V        &kp B          &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
-                                  &td3                &mkp LCLK    &kp SPACE      &kp BACKSPACE  &kp RIGHT_SHIFT    &to 2
+&ht LS(Q) Q     &ht LS(W) W  &ht LS(E) E         &ht LS(R) R       &ht LS(T) T    &kp Y          &kp U              &kp I              &ht LS(O) O  &ht LS(P) P
+&hr LEFT_ALT A  &kp S        &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G          &kp H          &hr RIGHT_SHIFT J  &kp K              &kp L        &hr RIGHT_GUI SEMICOLON
+&kp Z           &kp X        &kp C               &kp V             &kp B          &kp N          &ht EXCLAMATION M  &ht AT_SIGN COMMA  &kp DOT      &kp SLASH
+                             &td3                &mkp LCLK         &kp SPACE      &kp BACKSPACE  &none              &to 2
             >;
         };
 
