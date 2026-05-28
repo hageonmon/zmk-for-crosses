@@ -95,20 +95,6 @@
             layers = <3>;
             timeout-ms = <50>;
         };
-
-        to_layer_3_right {
-            bindings = <&to 3>;
-            key-positions = <27 26 27>;
-            layers = <0>;
-            timeout-ms = <50>;
-        };
-
-        to_layer_0_right {
-            bindings = <&to 0>;
-            key-positions = <26 27>;
-            timeout-ms = <50>;
-            layers = <3>;
-        };
     };
 
     macros {
