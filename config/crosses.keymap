@@ -172,6 +172,15 @@
 
             tapping-term-ms = <100>;
         };
+
+        td4: num3_or_dot {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NUM3_OR_DOT";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_3>, <&kp PERIOD>;
+
+            tapping-term-ms = <100>;
+        };
     };
 
     keymap {
@@ -206,10 +215,10 @@
 
         Num {
             bindings = <
-&kp TILDE       &none           &kp UP_ARROW    &none            &none        &ht LS(MINUS) MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &ht LS(SINGLE_QUOTE) SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &ht LS(BACKSLASH) BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &ht LS(LEFT_BRACKET) LEFT_BRACKET
-&none           &none           &none           &none            &td1         &ht LS(EQUAL) EQUAL          &kp NUMBER_1  &kp NUMBER_2  &ht DOT NUMBER_3  &ht LS(RIGHT_BRACKET) RIGHT_BRACKET
-                                &none           &none            &kp SPACE    &kp BACKSPACE                &kp NUMBER_0  &none
+&kp TILDE       &none           &kp UP_ARROW    &none            &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
+&none           &none           &none           &none            &td1         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &td3          &kp RIGHT_BRACKET
+                                &none           &none            &kp SPACE    &kp BACKSPACE  &kp NUMBER_0  &none
             >;
         };
 
