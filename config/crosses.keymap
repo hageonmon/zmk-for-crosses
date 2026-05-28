@@ -76,11 +76,6 @@
             require-prior-idle-ms = <120>;
         };
 
-        Momentary_layer_funtion {
-            bindings = <&mo 2>;
-            key-positions = <30 31>;
-        };
-
         to_layer_3 {
             bindings = <&to 3>;
             key-positions = <22 23>;
