@@ -75,6 +75,16 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <120>;
         };
+
+        mouse_right_click {
+            bindings = <&mkp MB2>;
+            key-positions = <22 23>;
+        };
+
+        mouse_button_4 {
+            bindings = <&mkp MB4>;
+            key-positions = <22 21>;
+        };
     };
 
     macros {
