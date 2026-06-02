@@ -90,6 +90,18 @@
             bindings = <&kp DELETE>;
             key-positions = <5 6>;
         };
+
+        to_layer_2 {
+            bindings = <&to 2>;
+            key-positions = <34 33>;
+            layers = <0>;
+        };
+
+        to_layer_0 {
+            bindings = <&to 0>;
+            key-positions = <33 34>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -179,10 +191,10 @@
 
         Base {
             bindings = <
-&kp Q           &kp W  &kp E               &kp R             &kp T    &kp Y  &kp U              &kp I          &kp O    &kp P
-&hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G    &kp H  &hr RIGHT_SHIFT J  &kp K          &kp L    &hr RIGHT_GUI SEMICOLON
-&kp Z           &kp X  &kp C               &kp V             &kp B    &kp N  &kp M              &kp COMMA      &kp DOT  &kp SLASH
-                       &kp SPACE           &mkp LCLK         &td3     &to 2  &none              &kp BACKSPACE
+&kp Q           &kp W  &kp E               &kp R             &kp T        &kp Y  &kp U              &kp I          &kp O    &kp P
+&hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G        &kp H  &hr RIGHT_SHIFT J  &kp K          &kp L    &hr RIGHT_GUI SEMICOLON
+&kp Z           &kp X  &kp C               &kp V             &kp B        &kp N  &kp M              &kp COMMA      &kp DOT  &kp SLASH
+                       &kp SPACE           &td3              &mkp LCLK    &none  &none              &kp BACKSPACE
             >;
         };
 
@@ -200,7 +212,7 @@
 &none  &none  &mkp MB4   &mkp MB5   &none    &mkp MB4   &mkp MB5   &none          &none  &none
 &none  &none  &mkp RCLK  &mkp LCLK  &none    &mkp LCLK  &mkp RCLK  &none          &none  &none
 &none  &none  &none      &none      &none    &mo 3      &mo 3      &none          &none  &none
-              &kp SPACE  &none      &td3     &to 0      &none      &kp BACKSPACE
+              &kp SPACE  &td3       &none    &to 0      &none      &kp BACKSPACE
             >;
         };
 
