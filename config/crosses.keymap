@@ -194,16 +194,16 @@
 &kp Q           &kp W  &kp E               &kp R             &kp T        &kp Y  &kp U              &kp I          &kp O    &kp P
 &hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G        &kp H  &hr RIGHT_SHIFT J  &kp K          &kp L    &hr RIGHT_GUI SEMICOLON
 &kp Z           &kp X  &kp C               &kp V             &kp B        &kp N  &kp M              &kp COMMA      &kp DOT  &kp SLASH
-                       &kp SPACE           &td3              &mkp LCLK    &none  &none              &kp BACKSPACE
+                       &kp SPACE           &mo 3             &mkp LCLK    &none  &mo 1              &kp BACKSPACE
             >;
         };
 
         Funtion {
             bindings = <
-&none  &none  &none  &none  &none    &none    &kp F7   &kp F8  &kp F9  &none
-&none  &none  &none  &none  &none    &kp F12  &kp F4   &kp F5  &kp F6  &none
-&none  &none  &none  &none  &none    &kp F11  &kp F1   &kp F2  &kp F3  &none
-              &none  &none  &none    &none    &kp F10  &none
+&none  &none  &none  &none  &none    &none    &kp F7  &kp F8  &kp F9  &none
+&none  &none  &none  &none  &none    &kp F12  &kp F4  &kp F5  &kp F6  &none
+&none  &none  &none  &none  &none    &kp F11  &kp F1  &kp F2  &kp F3  &none
+              &none  &none  &none    &kp F10  &none   &none
             >;
         };
 
