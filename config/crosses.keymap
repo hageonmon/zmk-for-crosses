@@ -191,10 +191,10 @@
 
         Base {
             bindings = <
-&kp Q           &kp W  &kp E               &kp R             &kp T    &kp Y  &kp U              &kp I      &kp O    &kp P
-&hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G    &kp H  &hr RIGHT_SHIFT J  &kp K      &kp L    &hr RIGHT_GUI SEMICOLON
-&kp Z           &kp X  &kp C               &kp V             &kp B    &kp N  &kp M              &kp COMMA  &kp DOT  &kp SLASH
-                       &mkp LCLK           &kp SPACE         &mo 3    &mo 1  &kp BACKSPACE      &none
+&kp Q           &kp W  &kp E               &kp R             &kp T        &kp Y          &kp U              &kp I      &kp O    &kp P
+&hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G        &kp H          &hr RIGHT_SHIFT J  &kp K      &kp L    &hr RIGHT_GUI SEMICOLON
+&kp Z           &kp X  &kp C               &kp V             &kp B        &kp N          &kp M              &kp COMMA  &kp DOT  &kp SLASH
+                       &mo 3               &mkp LCLK         &kp SPACE    &kp BACKSPACE  &none              &mo 1
             >;
         };
 
@@ -209,19 +209,19 @@
 
         Mouse {
             bindings = <
-&none  &none  &mkp MB4   &mkp MB5   &none    &mkp MB4   &mkp MB5       &none  &none  &none
-&none  &none  &mkp RCLK  &mkp LCLK  &none    &mkp LCLK  &mkp RCLK      &none  &none  &none
-&none  &none  &none      &none      &none    &mo 3      &mo 3          &none  &none  &none
-              &none      &kp SPACE  &mo 3    &mo 1      &kp BACKSPACE  &none
+&none  &none  &mkp MB4   &mkp MB5   &none        &mkp MB4       &mkp MB5   &none  &none  &none
+&none  &none  &mkp RCLK  &mkp LCLK  &none        &mkp LCLK      &mkp RCLK  &none  &none  &none
+&none  &none  &none      &none      &none        &mo 3          &mo 3      &none  &none  &none
+              &mo 3      &none      &kp SPACE    &kp BACKSPACE  &none      &mo 1
             >;
         };
 
         Num {
             bindings = <
-&kp TILDE       &none           &kp UP_ARROW    &none            &none    &kp MINUS      &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2     &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp LEFT_BRACKET
-&kp PLUS        &kp MINUS       &kp ASTERISK    &kp SLASH        &td1     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp RIGHT_BRACKET
-                                &none           &kp SPACE        &none    &none          &kp NUMBER_0  &kp BACKSPACE
+&kp TILDE       &none           &kp UP_ARROW    &none            &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
+&kp PLUS        &kp MINUS       &kp ASTERISK    &kp SLASH        &td1         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET
+                                &none           &none            &kp SPACE    &kp BACKSPACE  &kp NUMBER_0  &none
             >;
         };
 
