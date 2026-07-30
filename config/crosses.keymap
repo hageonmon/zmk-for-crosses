@@ -175,15 +175,6 @@
             bindings = <&domain>;
             tapping-term-ms = <300>;
         };
-
-        td3: tapdance3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE3";
-            #binding-cells = <0>;
-            bindings = <&mo 3>, <&mo 1>;
-
-            tapping-term-ms = <150>;
-        };
     };
 
     keymap {
@@ -194,7 +185,7 @@
 &kp Q           &kp W  &kp E               &kp R             &kp T        &kp Y          &kp U              &kp I      &kp O    &kp P
 &hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G        &kp H          &hr RIGHT_SHIFT J  &kp K      &kp L    &hr RIGHT_GUI SEMICOLON
 &kp Z           &kp X  &kp C               &kp V             &kp B        &kp N          &kp M              &kp COMMA  &kp DOT  &kp SLASH
-                       &mo 3               &mkp LCLK         &kp SPACE    &kp BACKSPACE  &none              &mo 1
+                       &mo 3               &mkp LCLK         &kp SPACE    &kp BACKSPACE  &mo 5              &mo 1
             >;
         };
 
@@ -218,9 +209,9 @@
 
         Num {
             bindings = <
-&kp TILDE       &none           &kp UP_ARROW    &kp COLON        &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
-&kp PLUS        &kp MINUS       &kp ASTERISK    &kp SLASH        &td1         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET
+&kp TILDE       &none           &kp UP_ARROW    &none            &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none        &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
+&kp PLUS        &kp MINUS       &kp ASTERISK    &kp SLASH        &none        &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET
                                 &none           &none            &kp SPACE    &kp BACKSPACE  &kp NUMBER_0  &kp DOT
             >;
         };
@@ -231,6 +222,15 @@
 &trans  &trans  &trans  &trans  &trans            &trans      &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans
 &trans  &trans  &trans  &trans  &trans            &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
                 &trans  &trans  &trans            &trans      &trans        &trans
+            >;
+        };
+
+        Tapdance {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &td2    &td1    &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
