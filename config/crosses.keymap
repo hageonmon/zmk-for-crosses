@@ -218,10 +218,10 @@
 
         Num {
             bindings = <
-&kp TILDE       &none           &kp UP_ARROW    &none            &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
+&kp TILDE       &none           &kp UP_ARROW    &kp COLON        &none        &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &td2         &kp BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
 &kp PLUS        &kp MINUS       &kp ASTERISK    &kp SLASH        &td1         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET
-                                &none           &none            &kp SPACE    &kp BACKSPACE  &kp NUMBER_0  &none
+                                &none           &none            &kp SPACE    &kp BACKSPACE  &kp NUMBER_0  &kp DOT
             >;
         };
 
